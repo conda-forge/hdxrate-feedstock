@@ -1,5 +1,5 @@
 {% set name = "hdxrate" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/HDXrate-{{ version }}.tar.gz
-  sha256: 27d8c2c5bc0c730a3cc3ae46f807b1f10ce92b73ec8b6c45601cbb99b344b925
+  sha256: 81178489ea907901c5f1cd304de47d338a897e142d152d6cecebe39a066ea8d4
 
 build:
   number: 0
